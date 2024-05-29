@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #fff url(../imagens/fundo.png) repeat-x top left;
+}
+#container{
+    width: 850px;
+    margin: 0 auto;
+}
+#topo{
+    height: 150px;
+    padding-top: 25px;
+    background: url(../imagens/detalhe-topo.png) no-repeat right top;
+}
+.logo{
+    width: 152px;
+    height: 66px;
+    background: url(../imagens/logo.png) no-repeat center;
+    text-indent: -3000px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#topo ul{
+    background: #b10333;
+    margin-top: 30px;
+    float: left;
+}
+#topo ul li{
+    float: left;
+}
+#topo ul a{
+    font: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    text-decoration: none;
+    color: #fff;
+    background: url(../imagens/divisor.png) no-repeat left center;
+}
+#topo ul .prime a{
+    background: none;
+}
+#topo ul a:hover{
+    color: #96001d;
+}
+body.home #navegacao a#home,
+body.brasil #navegacao a#brasil,
+body.int #navegacao a#int,
+body.eco #navegacao a#eco,
+body.saude #navegacao a#saude,
+body.ciencia #navegacao a#ciencia,
+body.fotos #navegacao a#fotos{
+    color: #fff;
+    background-color: #de003e;
+    cursor: text;
+}
+#cont{
+    background: #f5f5f5;
+    margin-top: 75px;
+}
+#cont h2{
+    background-color: #294c71;
+    color: #fff;
+    margin: 5px 10px 10px 10px;
+    padding: 5px;
+}
+#cont-prime h3,
+#cont-secundario h3{
+    background-color: #96001d;
+    border: 1px solid black;
+    font-size: 1em;
+    padding: 3px;
+    margin-bottom: 5px;
+    color: black;
+    display: inline;
+    text-transform: uppercase;
+}
+#cont-prime{
+    padding: 10px;
+    margin: 10px;
+    background: #fff;
+}
+#lateral ul li{
+    padding: 15px;
+}
+#nomes{
+    margin: 10px;
+    background-color: #fff;
+}
+#nomes ul li:hover{
+    color: gray;
+    background: url(../imagens/marcador.png) no-repeat left center;
+    cursor: pointer;
+    padding-left: 25px;
+}
+#nomes ul li{
+    font-size: 0.9em;
+    padding-left: 10px;
+    line-height: 30px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: #f3f3f3;
+}
+#tres-colunas #prime{
+    width: 300px;
+    margin: 0 0 20px 215px;
+    float: left;
+}
+#duas-colunas #prime{
+    width: 555px;
+    margin: 0 0 20px 195px;
+    float: left;
+}
+#uma-coluna #prime{
+    width: 750px;
+    margin-bottom: 20px;
+}
+#secundario{
+    width: 300px;
+    margin: 0 0 20px 15px;
+    float: left;
+}
+#cont-secundario{
+    padding: 10px;
+    margin: 10px;
+    background: #fff;
+}
+#lateral{
+    width: 200px;
+    float: left;
+    margin: 0 0 20px -830px;
+}
+#conteiner-rodape{
+    background-color: #294c71;
+    padding: 20px;
+    color: #fff;
+}
+#rodape{
+    width: 750px;
+    margin: 0 auto;
+    color: #fff;
+}
+.wt{
+    color: white;
+}
+#logar{
+    margin-top: 15px;
+}
+.back{
+    background-image: url(../imagens/fundo-caixa.png);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+.back2{
+    background: white;
+    margin: 0 10px 0 10px;
+}
+label{
+    display: block;
+    cursor: pointer;
+}
+input{
+    width: 125px;
+    padding: 5px;
+    font-size: 0.9em;
+    background-color: #fff;
+}
+input.submit{
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    border: 2px solid #870529;
+    padding: 5px;
+}
+#lista-noticias li{
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 65px;
+}
+#lista-noticias li a img{
+    float: left;
+    margin: 5px;
+}
+#lista-noticias li a{
+    text-decoration: none;
+}
+#lista-noticias li a h3{
+    text-decoration: none;
+    font-size: 1em;
+    color: #3e7ab9;
+}
+#lista-noticias li a p{
+    text-decoration: none;
+    font-size: 0.8em;
+}
+#lista-noticias li:hover{
+    background: #eee;
+    cursor: pointer;
+}
